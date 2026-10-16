@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_block_image_galeries",
+  "info": {
+    "displayName": "Image Galery",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "columns": {
+      "type": "integer",
+      "default": 3,
+      "max": 8
+    }
+  },
+  "config": {}
+}

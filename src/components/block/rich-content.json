@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_block_rich_contents",
+  "info": {
+    "displayName": "Rich Content",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "body": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}
