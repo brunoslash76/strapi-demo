@@ -18,6 +18,7 @@
   "dependencies": {
     "@strapi/database": "5.58.0",
     "@strapi/plugin-cloud": "5.58.0",
+    "@strapi/plugin-graphql": "^5.58.0",
     "@strapi/plugin-users-permissions": "5.58.0",
     "@strapi/strapi": "5.58.0",
     "better-sqlite3": "12.8.0",
@@ -41,5 +42,12 @@
   "strapi": {
     "uuid": "96bcf4e3-4c67-4d75-8c0e-20e1cb88f9e5",
     "installId": "d94174376cc772868acbfa7394d671f174bc59cdb13ec1a43e5ef5b3bd70065d"
+  },
+  "allowScripts": {
+    "better-sqlite3@12.8.0": true,
+    "esbuild@0.28.2": true,
+    "esbuild@0.25.12": true,
+    "@swc/core@1.16.18": true,
+    "fsevents@2.3.3": true
   }
 }
